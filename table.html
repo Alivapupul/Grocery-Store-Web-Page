@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Table Data</title>
-</head>
-<body>
-  <h2>Table Data</h2>
+	<head>
+		<meta charset="utf-8">
+		<title>Add Item Form</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body class="loggedin">
+		<nav class="navtop">
+			<div>
+				<h1>Aliva's Store</h1>
+			</div>
+		</nav>
+		<div class="content">
+			<h2>Table Data</h2>
+  <button onclick="goBack()">Go Back</button>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
   <table>
     <thead>
       <tr>
