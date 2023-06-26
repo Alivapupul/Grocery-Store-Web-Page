@@ -145,3 +145,15 @@ body.loggedin {
   padding: 5px;
   margin: 0 0 10px 0;
 }
+.form-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+.button-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+}
